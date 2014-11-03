@@ -1,20 +1,19 @@
 <?php get_header(); ?>
 
+  <section id="content">
 
-<section id="content">
+    <?php if (have_posts()) : ?>
+      <?php while (have_posts()) : the_post(); ?>
+        <article>
+          <h1 class="post-title"><?php the_title(); ?></h1>
+          <div class="post-content"><?php the_content(); ?></div>
+          <time class="post-date">Published on <?php the_time('F j, Y') ?></time>
+        </article>
+      <?php endwhile; ?>
+    <?php endif; ?>
 
-  <?php if (have_posts()) : ?>
-    <?php while (have_posts()) : the_post(); ?>
-      <article>
-        <h2 class="post-title-list"><?php the_title(); ?></h2>
-        <span class="date"><?php the_time('F j, Y') ?></span>
-        <div class="post-content">
-          <?php the_content(); ?>
-        </div>
-      </article>
-    <?php endwhile; ?>
-  <?php endif; ?>
+  </section>
 
-</section>
+  <p><a href="/"><span class="typcn typcn-arrow-back"></span> back</a></p>
 
 <?php get_footer(); ?>
