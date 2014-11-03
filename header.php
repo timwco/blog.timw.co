@@ -9,10 +9,6 @@
 
   <title>Tim Whitacre | <?php wp_title(); ?></title>
 
-  <meta name="description" content="Code. Music. Life."/>
-  <link rel="canonical" href="http://blog.timw.co/" />
-  <link rel="publisher" href="http://blog.timw.co/"/>
-
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700' rel='stylesheet' type='text/css'>
 
