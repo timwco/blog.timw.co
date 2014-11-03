@@ -1,0 +1,385 @@
+/*!
+  Theme Name: Tim
+  Theme URI: http://timw.co
+  Description: Tim's Blog theme
+  Version: 1.0
+  Author:  Tim Whitacre
+  Author URI: http://timw.co
+*/
+/*------ CSS RESET ------*/
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-decoration: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:after, blockquote:before, q:after, q:before {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*------ GENERAL ------*/
+body {
+  background: #e6e8ed;
+  font-family: "Lato";
+  color: #848a91;
+  -webkit-animation-name: bodyAnim;
+  -moz-animation-name: bodyAnim;
+  -ms-animation-name: bodyAnim;
+  -o-animation-name: bodyAnim;
+  animation-name: bodyAnim;
+  -webkit-animation-fill-mode: both;
+  -moz-animation-fill-mode: both;
+  -ms-animation-fill-mode: both;
+  -o-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  -ms-animation-delay: 0.5s;
+  -o-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  -ms-animation-duration: 0.5s;
+  -o-animation-duration: 0.5s;
+  animation-duration: 0.5s; }
+
+em {
+  font-style: italic; }
+
+@-webkit-keyframes bodyAnim {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-moz-keyframes bodyAnim {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes bodyAnim {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@keyframes bodyAnim {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+a {
+  color: #848a91;
+  -o-transition: all .2s ease-out, background 0.5s ease-in;
+  -ms-transition: all .2s ease-out, background 0.5s ease-in;
+  -moz-transition: all .2s ease-out, background 0.5s ease-in;
+  -webkit-transition: all .2s ease-out, background 0.5s ease-in;
+  transition: all .2s ease-out, background 0.5s ease-in;
+  cursor: pointer; }
+
+a:hover {
+  color: #F45145; }
+
+#container {
+  width: 860px;
+  margin: 0 auto;
+  background: white;
+  padding: 90px; }
+
+/*------ HEADER ------*/
+header {
+  height: 104px;
+  border-bottom: 1px solid #e6e8ed;
+  font-weight: 700; }
+
+header a#logo {
+  float: left;
+  margin-top: -11px;
+  height: 40px;
+  width: 40px;
+  background-color: #F45145;
+  border-radius: 50px; }
+
+header nav {
+  float: right;
+  font-weight: 400;
+  font-family: 'typicons';
+  font-size: 26px; }
+
+/*------ INTRO ------*/
+#intro {
+  padding: 45px 0;
+  border-bottom: 1px solid #e6e8ed;
+  font-family: "Merriweather";
+  font-size: 15px; }
+
+#intro p {
+  line-height: 2; }
+
+#intro a {
+  color: #F45145; }
+
+/*------- Content / Posts ----*/
+#content {
+  padding: 50px 0; }
+  #content article {
+    padding-bottom: 50px; }
+    #content article .post-title-list, #content article .post-title {
+      font-size: 25px;
+      margin-bottom: 8px;
+      margin-left: -2px; }
+      #content article .post-title-list a, #content article .post-title a {
+        color: #F45145; }
+    #content article .post-title {
+      margin-bottom: 50px; }
+      #content article .post-title a {
+        color: #F45145; }
+    #content article .date {
+      margin-bottom: 17px;
+      display: block;
+      font-size: 11px; }
+    #content article a.readmore {
+      padding-left: 5px;
+      color: #F45145; }
+    #content article .post-content {
+      font-size: 15px;
+      line-height: 2;
+      font-family: 'Merriweather'; }
+      #content article .post-content p {
+        margin: 25px 0; }
+        #content article .post-content p a {
+          color: #F45145; }
+      #content article .post-content h2 {
+        color: #F45145;
+        border-bottom: 1px solid #848a91;
+        margin-bottom: 20px; }
+        #content article .post-content h2 a {
+          color: #F45145; }
+      #content article .post-content h4 {
+        font-size: 13px;
+        font-style: italic; }
+      #content article .post-content ul {
+        margin: 15px 0; }
+      #content article .post-content ul li:before {
+        content: '\e049';
+        font-family: 'typicons';
+        margin: 0 10px 0 0; }
+      #content article .post-content blockquote {
+        border-left: 5px solid #F45145;
+        padding-left: 25px;
+        font-style: italic; }
+      #content article .post-content pre {
+        font-family: monospace;
+        background-color: #848a91;
+        padding: 10px 15px;
+        color: #FFF; }
+    #content article .post-date {
+      margin-top: 50px;
+      display: block;
+      font-size: 11px;
+      font-style: italic; }
+
+.pagination .next {
+  float: right; }
+
+#whiskey .columnl {
+  float: left;
+  width: 45%;
+  margin-right: 5%; }
+#whiskey .columnr {
+  float: left;
+  width: 45%; }
+#whiskey .clear {
+  clear: both; }
+#whiskey a {
+  color: #F45145; }
+#whiskey h1 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 40px; }
+#whiskey ul#whiskeyList {
+  margin: 25px 0; }
+  #whiskey ul#whiskeyList li {
+    margin: 0 0 15px 0; }
+    #whiskey ul#whiskeyList li:before {
+      content: '\e049';
+      font-family: 'typicons';
+      margin-right: 10px; }
+    #whiskey ul#whiskeyList li.drank {
+      color: #ccc; }
+      #whiskey ul#whiskeyList li.drank:before {
+        content: '\e11e'; }
+      #whiskey ul#whiskeyList li.drank span {
+        text-decoration: line-through; }
+
+/*------ FOOTER ------*/
+footer {
+  width: 100%;
+  text-align: center;
+  margin-top: 85px;
+  font-size: 14px; }
+
+/* ------ Hover Effects ------ */
+#logo {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-transition: -webkit-transform ease-out 0.1s, background 0.2s;
+  -moz-transition: -moz-transform ease-out 0.1s, background 0.2s;
+  transition: transform ease-out 0.1s, background 0.2s;
+  position: relative; }
+
+#logo:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px red;
+  opacity: 0;
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9); }
+
+#logo:hover {
+  background: #848a91;
+  -webkit-transform: scale(0.93);
+  -moz-transform: scale(0.93);
+  -ms-transform: scale(0.93);
+  transform: scale(0.93); }
+
+#logo:hover:after {
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms;
+  -moz-animation: sonarEffect 1.3s ease-out 75ms;
+  animation: sonarEffect 1.3s ease-out 75ms; }
+
+#logo span {
+  display: none;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  -webkit-animation-duration: 1000ms;
+  animation-duration: 1000ms;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  left: 60px;
+  top: 11px;
+  font-size: 18px;
+  width: 165px;
+  color: #848a91; }
+
+#logo:hover span {
+  display: block !important; }
+
+.extra h2 {
+  color: #F45145; }
+.extra em {
+  font-style: italic; }
+.extra ul {
+  margin: 20px 0; }
+
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3; }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FBB7B2, 0 0 0 10px rgba(255, 255, 255, 0.5); }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #FBB7B2, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    -webkit-transform: scale(1.5);
+    opacity: 0; } }
+@-moz-keyframes sonarEffect {
+  0% {
+    opacity: 0.3; }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5); }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    -moz-transform: scale(1.5);
+    opacity: 0; } }
+@keyframes sonarEffect {
+  0% {
+    opacity: 0.3; }
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5); }
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.5);
+    opacity: 0; } }
+@-webkit-keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0); } }
+/*------ MEDIA QUERIES ------*/
+@media only screen and (max-width: 1023px) {
+  #container {
+    width: 60%; }
+
+  #thumbnails ul a img {
+    width: 100%;
+    height: 100%; }
+
+  #whiskey .columnr, #whiskey .columnl {
+    float: none;
+    width: 85%;
+    margin: 0; } }
+@media only screen and (max-width: 480px) {
+  #container {
+    width: 70%;
+    padding: 60px 40px; }
+
+  header {
+    height: 80px; }
+
+  footer {
+    margin-top: 55px; }
+
+  #logo span {
+    width: 90px;
+    top: 1px;
+    line-height: 21px; } }
+
+/*# sourceMappingURL=style.css.map */
