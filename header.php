@@ -7,7 +7,7 @@
   <meta http-equiv="content-language" content="en-gb" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
-  <title><?php wp_title( '|', true, 'right' ); ?></title>
+  <title>Tim Whitacre | <?php wp_title(); ?></title>
 
   <meta name="description" content="Code. Music. Life."/>
   <link rel="canonical" href="http://blog.timw.co/" />
@@ -34,3 +34,7 @@
       <a target="_blank" class="typcn typcn-social-linkedin-circular" href="https://www.linkedin.com/profile/view?id=28676587"></a>
     </nav>
   </header>
+
+  <section id="intro">
+    <p>Below you'll find some of my thoughs. If you would like to find more about me, check out <a href="http://timw.co">my personal site.</a></p>
+  </section>

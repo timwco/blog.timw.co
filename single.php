@@ -7,7 +7,7 @@
     <?php while (have_posts()) : the_post(); ?>
       <article>
         <h2 class="post-title-list"><?php the_title(); ?></h2>
-        <span class="date"><?php the_time('M') ?></span>
+        <span class="date"><?php the_time('F j, Y') ?></span>
         <div class="post-content">
           <?php the_content(); ?>
         </div>
