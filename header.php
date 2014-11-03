@@ -7,7 +7,7 @@
   <meta http-equiv="content-language" content="en-gb" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
 
-  <title>Tim Whitacre | <?php wp_title(); ?></title>
+  <title><?php wp_title(); ?></title>
 
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700' rel='stylesheet' type='text/css'>
