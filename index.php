@@ -1,8 +1,7 @@
 <?php get_header(); ?>
 
   <section id="intro">
-    <p>Below you'll find some of my thoughts.</p>
-    <p>Find more about me on <a href="http://timw.co">my personal site.</a></p>
+    <p>Here are some of my thoughts. Read more about me <a href="http://timw.co">here</a></p>
   </section>
 
   <section id="content">
