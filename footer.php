@@ -1,7 +1,7 @@
   <footer>
     <a href="http://timw.co">CodeLyfe™</a>
-  <br />
-    <span>Published via</span><a href="http://desk.pm/">Desk</a>
+    <br /><br />
+    <span>Published via </span><a href="http://desk.pm/">Desk</a>
   </footer>
 
 </div><!-- END CONTAINER -->
