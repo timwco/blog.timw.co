@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <section id="intro">
-    <p>Here are some of my thoughts. Read more about me <a href="http://timw.co">here</a></p>
+    <p>Welcome to the personal blog of <a href="http://timw.co">Tim Whitacre</a>.</p>
   </section>
 
   <section id="content">
