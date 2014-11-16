@@ -43,6 +43,14 @@ body {
   -o-animation-duration: 0.5s;
   animation-duration: 0.5s;
 }
+.alignright {
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+.alignleft {
+  float: right;
+  margin: 10px 0 10px 10px;
+}
 
 em {
   font-style: italic;
