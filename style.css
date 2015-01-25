@@ -168,7 +168,7 @@ header nav {
       color: #F45145; }
     #content article .post-content {
       font-size: 15px;
-      line-height: 2; }
+      line-height: 30px; }
       #content article .post-content p {
         margin: 25px 0; }
         #content article .post-content p a {
@@ -181,8 +181,8 @@ header nav {
           color: #F45145; }
       #content article .post-content h3 {
         padding: 0;
-        margin: 0 0 0 -15px;
-        font-size: 25px; }
+        margin: 0;
+        font-size: 20px; }
       #content article .post-content h4 {
         font-size: 13px;
         font-style: italic; }
