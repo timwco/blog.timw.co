@@ -40,8 +40,8 @@ table {
 /*------ GENERAL ------*/
 body {
   background: #e6e8ed;
-  font-family: "Lato";
-  color: #848a91;
+  font-family: 'Noto Serif', serif;
+  color: #343234;
   -webkit-animation-name: bodyAnim;
   -moz-animation-name: bodyAnim;
   -ms-animation-name: bodyAnim;
@@ -95,7 +95,7 @@ em {
   100% {
     opacity: 1; } }
 a {
-  color: #848a91;
+  color: #343234;
   -o-transition: all .2s ease-out, background 0.5s ease-in;
   -ms-transition: all .2s ease-out, background 0.5s ease-in;
   -moz-transition: all .2s ease-out, background 0.5s ease-in;
@@ -136,7 +136,6 @@ header nav {
 #intro {
   padding: 45px 0;
   border-bottom: 1px solid #e6e8ed;
-  font-family: "Merriweather";
   font-size: 15px; }
 
 #intro p {
@@ -169,18 +168,21 @@ header nav {
       color: #F45145; }
     #content article .post-content {
       font-size: 15px;
-      line-height: 2;
-      font-family: 'Merriweather'; }
+      line-height: 2; }
       #content article .post-content p {
         margin: 25px 0; }
         #content article .post-content p a {
           color: #F45145; }
       #content article .post-content h2 {
         color: #F45145;
-        border-bottom: 1px solid #848a91;
+        border-bottom: 1px solid #343234;
         margin-bottom: 20px; }
         #content article .post-content h2 a {
           color: #F45145; }
+      #content article .post-content h3 {
+        padding: 0;
+        margin: 0 0 0 -15px;
+        font-size: 25px; }
       #content article .post-content h4 {
         font-size: 13px;
         font-style: italic; }
@@ -196,7 +198,7 @@ header nav {
         font-style: italic; }
       #content article .post-content pre {
         font-family: monospace;
-        background-color: #848a91;
+        background-color: #343234;
         padding: 10px 15px;
         color: #FFF; }
     #content article .post-date {
@@ -275,7 +277,7 @@ footer {
   transform: scale(0.9); }
 
 #logo:hover {
-  background: #848a91;
+  background: #343234;
   -webkit-transform: scale(0.93);
   -moz-transform: scale(0.93);
   -ms-transform: scale(0.93);
@@ -299,7 +301,7 @@ footer {
   top: 11px;
   font-size: 18px;
   width: 165px;
-  color: #848a91; }
+  color: #343234; }
 
 #logo:hover span {
   display: block !important; }

@@ -10,8 +10,7 @@
 
   <title><?php wp_title(); ?></title>
 
-  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Merriweather:300,400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/typicons.min.css">
   <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
