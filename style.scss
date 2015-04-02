@@ -146,7 +146,7 @@ header nav {
   article {
     padding-bottom: 50px;
     .post-title-list {
-      font-size: 25px;
+      font-size: 35px;
       margin-bottom: 8px;
       margin-left: -2px;
       a {
@@ -170,8 +170,8 @@ header nav {
       color: $link_color;
     }
     .post-content {
-      font-size: 16px;
-      line-height: 30px;
+      font-size: 17px;
+      line-height: 35px;
       p {
         margin: 20px 0;
         a {
@@ -187,9 +187,11 @@ header nav {
         margin-bottom: 20px;
       }
       h3 {
-        padding: 0;
-        margin: 0; 
-        font-size: 20px;
+        padding: 10px 0 7px 0;
+        margin: 0;
+        font-size: 23px;
+        border-bottom: 1px solid $grey_color;
+        padding-bottom: 7px;
       }
       h4 {
         font-size: 13px;

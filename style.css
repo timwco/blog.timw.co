@@ -150,7 +150,7 @@ header nav {
   #content article {
     padding-bottom: 50px; }
     #content article .post-title-list, #content article .post-title {
-      font-size: 25px;
+      font-size: 35px;
       margin-bottom: 8px;
       margin-left: -2px; }
       #content article .post-title-list a, #content article .post-title a {
@@ -167,8 +167,8 @@ header nav {
       padding-left: 5px;
       color: #F45145; }
     #content article .post-content {
-      font-size: 16px;
-      line-height: 30px; }
+      font-size: 17px;
+      line-height: 35px; }
       #content article .post-content p {
         margin: 20px 0; }
         #content article .post-content p a {
@@ -180,9 +180,11 @@ header nav {
         #content article .post-content h2 a {
           color: #F45145; }
       #content article .post-content h3 {
-        padding: 0;
+        padding: 10px 0 7px 0;
         margin: 0;
-        font-size: 20px; }
+        font-size: 23px;
+        border-bottom: 1px solid #343234;
+        padding-bottom: 7px; }
       #content article .post-content h4 {
         font-size: 13px;
         font-style: italic; }
