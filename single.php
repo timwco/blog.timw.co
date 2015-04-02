@@ -7,13 +7,14 @@
         <article>
           <h1 class="post-title"><?php the_title(); ?></h1>
           <div class="post-content"><?php the_content(); ?></div>
-          <time class="post-date">Published on <?php the_time('F j, Y') ?></time>
+          <time class="post-date">
+            <i class="typcn typcn-calendar"></i> <a href="<?php the_permalink(); ?>"><?php the_time('F j, Y') ?></a>
+            <i class="typcn typcn-folder"></i> <?php the_category(', '); ?>
+          </time>
         </article>
       <?php endwhile; ?>
     <?php endif; ?>
 
   </section>
-
-  <p><a href="/"><span class="typcn typcn-arrow-back"></span> back</a></p>
 
 <?php get_footer(); ?>

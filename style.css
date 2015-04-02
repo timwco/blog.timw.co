@@ -205,7 +205,9 @@ header nav {
       margin-top: 50px;
       display: block;
       font-size: 11px;
-      font-style: italic; }
+      font-style: italic;
+      background: #f7f7f7;
+      padding: 20px 10px; }
 
 .pagination .next {
   float: right; }

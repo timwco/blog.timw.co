@@ -1,6 +1,4 @@
   <footer>
-    <a href="http://timw.co">CodeLyfe™</a>
-    <br /><br />
     <span>Published via </span><a href="http://desk.pm/">Desk</a>
   </footer>
 
