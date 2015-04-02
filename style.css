@@ -208,6 +208,11 @@ header nav {
       font-style: italic;
       background: #f7f7f7;
       padding: 20px 10px; }
+      #content article .post-date i {
+        font-size: 15px;
+        padding-right: 3px; }
+      #content article .post-date i.typcn-folder {
+        padding-left: 10px; }
 
 .pagination .next {
   float: right; }
@@ -246,7 +251,6 @@ header nav {
 footer {
   width: 100%;
   text-align: center;
-  margin-top: 85px;
   font-size: 14px; }
 
 /* ------ Hover Effects ------ */

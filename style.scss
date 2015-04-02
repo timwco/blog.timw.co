@@ -222,6 +222,13 @@ header nav {
       font-style: italic;
       background: hsla(0,0%,97%,1);
       padding: 20px 10px;
+      i {
+        font-size: 15px;
+        padding-right: 3px;
+      }
+      i.typcn-folder {
+        padding-left: 10px;
+      }
     }
   }
 }
@@ -281,7 +288,7 @@ header nav {
 footer {
   width: 100%;
   text-align: center;
-  margin-top: 85px;
+  // margin-top: 85px;
   font-size: 14px;
 }
 
