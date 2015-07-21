@@ -163,3 +163,8 @@ function be_default_category_title( $headline, $term ) {
 	return $headline;
 }
 add_filter( 'genesis_term_meta_headline', 'be_default_category_title', 10, 2 );
+
+add_filter( 'get_the_content_more_link', 'sp_read_more_link' );
+function sp_read_more_link() {
+	return '... <a class="more-link" href="' . get_permalink() . '">Continue Reading</a>';
+}
